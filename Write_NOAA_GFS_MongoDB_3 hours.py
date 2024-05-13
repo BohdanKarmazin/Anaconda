@@ -207,7 +207,7 @@ def run_main():
 
 
 def schedule_job():
-    schedule.every().day.at("08:53").do(run_main)
+    schedule.every().day.at("11:22").do(run_main)
 
     while True:
         schedule.run_pending()
