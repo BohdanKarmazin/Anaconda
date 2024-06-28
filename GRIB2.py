@@ -8,7 +8,7 @@ import time
 from multiprocessing import Pool
 from telegram_notification import telegram_bot_send_message
 
-file_path = 'D:\\ANACONDA\\ECMWF\\20240515000000-0h-oper-fc.grib2'
+file_path = 'D:\\ANACONDA\\ECMWF\\20240520000000-0h-enfo-ef.grib2'
 target_lat = 48.7
 target_lon = 65.94
 
